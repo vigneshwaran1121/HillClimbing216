@@ -42,23 +42,18 @@ Game Manager
 ---
 
 Project Structure
-Assets/
-├── Scripts/
-│ ├── CarDrive.cs
-│ ├── CollectFuel.cs
-│ ├── DisplayDistanceText.cs
-│ ├── DriverDeathHead.cs
-│ ├── FuelController.cs
-│ ├── GameManager.cs
-│ ├── OrientationFix.cs
-│ ├── ScreenManager.cs
-│ ├── TerrainChunk.cs
-│ └── TerrainChunkSpawner.cs
-│
-├── Prefabs/
-├── Scenes/
-├── SpriteShape/
-└── Sprites/
+
+Scripts Included
+
+- `CarDrive.cs` → Handles car movement, wheel torque, and air rotation  
+- `CollectFuel.cs` → Detects fuel pickup collisions and refills fuel  
+- `DisplayDistanceText.cs` → Tracks and displays distance travelled  
+- `FuelController.cs` → Manages fuel drain, refill, and UI updates  
+- `GameManager.cs` → Controls game state, restart, and game over logic  
+- `OrientationFix.cs` → Forces correct landscape orientation on mobile  
+- `ScreenManager.cs` → Handles screen setup and resolution behavior  
+- `TerrainChunk.cs` → Generates procedural terrain using Perlin Noise  
+- `TerrainChunkSpawner.cs` → Spawns and manages infinite terrain chunks  
 
 
 ---
